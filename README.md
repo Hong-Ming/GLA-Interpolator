@@ -5,14 +5,14 @@ The MATLAB programs contain in this directory solving the power map interpolatio
 
 ## CONTANTS
 1. In main directory
-- GLA_interpolator.m : main function for GLA interpolator [1]
-- GP_interpolator.m : main function for GP interpolator [2]
-- LS_interpolator.m : main function for Kriging interpolator [3]
-- AggregatedMSETest.m : Monta Carlo simulation for aggregated MSE
-- RegionalMSETest.m : Monta Carlo simulation for Regonal MSE
-- SNRTest.m : Monta Carlo simulation for SNR v.s.MSE
-- startup.m : add path and make directory, executed automatically at startup
-- cleanup.m : clean all *.mat file in Data/ directory
+    - GLA_interpolator.m : main function for GLA interpolator [1]
+    - GP_interpolator.m : main function for GP interpolator [2]
+    - LS_interpolator.m : main function for Kriging interpolator [3]
+    - AggregatedMSETest.m : Monta Carlo simulation for aggregated MSE
+    - RegionalMSETest.m : Monta Carlo simulation for Regonal MSE
+    - SNRTest.m : Monta Carlo simulation for SNR v.s.MSE
+    - startup.m : add path and make directory, executed automatically at startup
+    - cleanup.m : clean all *.mat file in Data/ directory
     In Function/ directory : 
         MakeGroundTrue.m : generate ground true power map [4]
         MakeObservation.m : generate observed power map
