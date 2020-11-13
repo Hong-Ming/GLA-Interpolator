@@ -63,14 +63,14 @@ This MATLAB program contains the code for the paper "Graph learning and augmenta
     - **SNR.fig**: result of SNRTest.m
 ## Setup/Installation
 1. CVX [6] installed (Optional), you can use the solver in `BCD_Algorithm/` to run the code.
-2. Run 
+2. Run **startup.m** to setup search paths and required directories.
    ```
    >>startup.m
    ```
-   to setup search paths and required directories.
-3. If your startup directory is not GLA/ or there are errors occurs due to 
-   'Function is not found on MATLAB searth path' or 'No such file or directory',
-   please execute startup.m manually.
+3. This program stores the outputs and learned parameters in `Data/` to speed up implementation, run **cleanup.m** to cleanup those data
+   ```
+   >>cleanup.m
+   ```
         
 ## Reference
 [1] Hong-Ming Chiu, Carrson C. Fung, and Antonio Ortega, "Graph learning and augmentation based interpolation of signal strength for location-aware communications,"  European Signal Processing Conference (EUSIPCO) 2020.
