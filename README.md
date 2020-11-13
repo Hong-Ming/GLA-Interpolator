@@ -15,7 +15,7 @@ Please cite [our paper](https://www.eurasip.org/Proceedings/Eusipco/Eusipco2020/
 ```
 
 ## Intorduction
-This MATLAB program contains the code for the paper "Graph learning and augmentation based interpolation of signal strength for location-aware communications". The code for the interpolator using Gaussian Process [2] and Kriging [3] are also included to perform comparison and Monta Carlo simulation.
+This MATLAB program contains the code for the paper "Graph learning and augmentation based interpolation of signal strength for location-aware communications" and code to perform Monta Carlo simulation. The code for the interpolator using Gaussian Process [2] and Kriging [3] are also included for comparison.
 
 ## Contents
 1. In `/`:
@@ -82,7 +82,7 @@ This MATLAB program contains the code for the paper "Graph learning and augmenta
     
 [6] Michael Grant and Stephen Boyd. CVX: Matlab software for disciplined convex programming, version 2.0 beta. http://cvxr.com/cvx, September 2013.
     
-## AUTOR/CONTACT INFO
+## Author/Conatact Info
 Name  : Hong-Ming, Chiu
 
 Email : hongmingchiu2017@gmail.com
