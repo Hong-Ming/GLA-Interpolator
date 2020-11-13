@@ -72,8 +72,8 @@ Degree = 2;                      % degree of polynimail for curve fitting
 
 % Options
 %%%%%%%%%%%%%%%%%%%%%%%%% Data Generation %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-RemakeData = true;
-ModelMismatch = true;
+RemakeData = false;
+ModelMismatch = false;
 %%%%%%%%%%%%%%%%%%%%%%%%% Plot Figure %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 PlotMeasurePoints = false;
 PlotTruePowerMap = true;
@@ -285,12 +285,12 @@ if nargout > 0
 end
 
 % Set color bar limit
-% cmax = max(max(max(Observation)),max(max(Interpolation)));
-% cmin = min(min(min(Observation)),min(min(Interpolation)));
-% cmax = 10*ceil(cmax/10);
-% cmin = 10*floor(cmin/10);
-cmax = 0;
-cmin = -80;
+cmax = max(max(max(Observation)),max(max(Interpolation)));
+cmin = min(min(min(Observation)),min(min(Interpolation)));
+cmax = 10*ceil(cmax/10);
+cmin = 10*floor(cmin/10);
+% cmax = 0;
+% cmin = -80;
 increment = -8;
 Level = cmax+increment:increment:cmin;
 

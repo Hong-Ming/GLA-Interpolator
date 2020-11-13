@@ -462,7 +462,7 @@ if PlotInterpolatedPowerMap
     yticks(0:50:200)
     xlabel('x (m)','FontSize',15)
     ylabel('y (m)','FontSize',15)
-    title('Interpolated Power Map (GLA)','FontSize',15)
+    title('Interpolated Power Map (GP)','FontSize',15)
     xlabel(['\#Measure Points = ' num2str(num_of_measurement) ...
             '\ \ MSE = ' num2str(MSE,'%7.4f')],'FontSize',15,'Interpreter','latex')
     colorbar
