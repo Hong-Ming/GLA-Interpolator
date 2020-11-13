@@ -19,7 +19,7 @@ This MATLAB program contains the code for the paper "Graph learning and augmenta
 
 ## Contents
 1. In `/`:
-    - GLA_interpolator.m : main function for Graph Learning and Augmentation based interpolator [1]
+    - **GLA_interpolator.m**: main function for Graph Learning and Augmentation based interpolator [1]
     - GP_interpolator.m : main function for Gaussian Process based interpolator [2]
     - LS_interpolator.m : main function for Kriging based interpolator [3]
     - AggregatedMSETest.m : Monta Carlo simulation for aggregated MSE
@@ -34,25 +34,25 @@ This MATLAB program contains the code for the paper "Graph learning and augmenta
     - DataStatistic.m : generate data statistic
     - GMRF.m : GMRF graph learning [5]
     - LearnParameter.m : learn paramters for graph augmentation
-3. In BCD_Algorithm/ diretory [5] : 
+3. In `BCD_Algorithm/` [5] : 
     - EstimateGGL.m : GGL graph learning
     - EstimateDDGL.m : DDGL graph learning
     - EstimateCGL.m : CGL graph learning
     - nonnegative_qp_solver.m : function for solving inner QP subproblem
     - update_sherman_morrison_diag.m : funciton for updating diagonal elements in DDGL graph learning
-4. In MonteCarlo/ directory : 
+4. In `MonteCarlo/` : 
     - AggregatedMSETest/ : store outputs of AggregatedMSETest.m
     - RegionalMSETest/ :store outputs of RegionalMSETest.m
     - SNRTest/ :store outputs of SNRTest.m
     - PlotAggregatedMSETest.m : plot results of AggregatedMSETest.m
     - PlotRegionalMSETest.m : plot results of RegionalMSETest.m
     - PlotSNRTest.m : plot results of SNRTest.m
-5. In Data/ directory :
+5. In `Data/` :
     - GP/ : store results of GP_interpolator.m
     - GraphLearningData/ : store results of DataStatistic.m, GMRF.m and LearnParameter.m
     - GroundTrueData/ : store results of MakeGroundTrue.m
     - Sample/ : store results of MakeSample.m
-6. In Figure/ directory :
+6. In `Figure/` :
     - TruePowerMap.fig : true power map generated from MakeGroundTrue.m
     - ObservedPowerMap.fig : noisy observation of power map plotted in TruePowerMap.fig
     - InterpolatedPowerMap(MAP).fig : interpolated result of MAP_interpolator.m
