@@ -56,21 +56,20 @@ The MATLAB programs contain in this directory solving the power map interpolatio
    please execute startup.m manually.
         
 ## RERERENCE
-[1] H.M. Chiu, C.C. Fung, and A. Ortega, "Graph learning and augmentation based 
-    interpolation of signal strength for location-aware communications," 2020.
-[2] Ferris Brian, Hähnel Dirk and Fox Dieter, "Gaussian Processes for Signal 
-    Strength-Based Location Estimation," 2006.
-[3] A. Serrano, B. Girault, and A. Ortega, "Geostatistical Data Interpolation
-    using Graph Signal Spectral Prior," 2019.
-[4] R. Di Taranto et al., "Location-aware communicationsfor 5g networks," 
-    IEEE Signal Processing Magazine, vol. 31, no. 6, pp. 102?112, 2014.
-[5] H.E. Egilmez, E. Pavez, and A. Ortega, "Graph learn-ing from data under 
-    laplacian and structural constraints," IEEE Journal of Selected Topics 
-    in Signal processing, vol. 11, no. 6, pp. 825?841, 2017.
-[6] Michael Grant and Stephen Boyd. CVX: Matlab software for disciplined convex 
-    programming, version 2.0 beta. http://cvxr.com/cvx, September 2013.
+[1] H.M. Chiu, C.C. Fung, and A. Ortega, "Graph learning and augmentation based interpolation of signal strength for location-aware communications," 2020.
+    
+[2] Ferris Brian, Hähnel Dirk and Fox Dieter, "Gaussian Processes for Signal Strength-Based Location Estimation," 2006.
+    
+[3] A. Serrano, B. Girault, and A. Ortega, "Geostatistical Data Interpolation using Graph Signal Spectral Prior," 2019.
+    
+[4] R. Di Taranto et al., "Location-aware communicationsfor 5g networks," IEEE Signal Processing Magazine, vol. 31, no. 6, pp. 102?112, 2014.
+    
+[5] H.E. Egilmez, E. Pavez, and A. Ortega, "Graph learn-ing from data under laplacian and structural constraints," IEEE Journal of Selected Topics in Signal processing, vol. 11, no. 6, pp. 825?841, 2017.
+    
+[6] Michael Grant and Stephen Boyd. CVX: Matlab software for disciplined convex programming, version 2.0 beta. http://cvxr.com/cvx, September 2013.
     
 ## AUTOR/CONTACT INFO
 Name  : Hong-Ming, Chiu
+
 Email : hongmingchiu2017@gmail.com
 
