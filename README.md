@@ -55,7 +55,7 @@ This MATLAB program contains the code for the paper "Graph learning and augmenta
 6. In `Figure/` :
     - **TruePowerMap.fig**: true power map generated from MakeGroundTrue.m
     - **ObservedPowerMap.fig**: noisy observation of power map plotted in TruePowerMap.fig
-    - **InterpolatedPowerMap(MAP).fig**: interpolated result of MAP_interpolator.m
+    - **InterpolatedPowerMap(GLA).fig**: interpolated result of GLA_interpolator.m
     - **InterpolatedPowerMap(GP).fig**: interpolated result of GP_interpolator.m
     - **InterpolatedPowerMap(LS).fig**: interpolated result of LS_interpolator.m
     - **AggregatedMSE.fig**: result of AggregatedMSETest.m
