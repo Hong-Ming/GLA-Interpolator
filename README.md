@@ -4,7 +4,8 @@
 The MATLAB programs contain in this directory solving the power map interpolation problem using both Graph Learning and Augmentation [1], Gaussian Process [2] and Kriging [3], as well as functions that perform Monta Carlo simulation.
 
 ## CONTANTS
-In main directory :
+In main directory
+
 1.GLA_interpolator.m : main function for GLA interpolator [1]
 2.GP_interpolator.m : main function for GP interpolator [2]
 3.LS_interpolator.m : main function for Kriging interpolator [3]
