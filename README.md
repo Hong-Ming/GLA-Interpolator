@@ -1,13 +1,17 @@
 # Graph Learning and Augmentation Based Interpolation of Signal Strength for Location-aware Communicationsr
+#### Authors: [Hong-Ming, Chiu](https://github.com/Hong-Ming), [Carrson C. Fung](https://mcube.nctu.edu.tw/~cfung/), [Antonio Ortega](https://viterbi.usc.edu/directory/faculty/Ortega/Antonio)
+#### [Link to Paper](https://www.eurasip.org/Proceedings/Eusipco/Eusipco2020/pdfs/0002150.pdf)
+
+Code regarding GMRF Graph Learning referenced from: [https://github.com/STAC-USC/Graph_Learning](https://github.com/STAC-USC/Graph_Learning)
 
 ## Intorduction
-The MATLAB programs contain in this directory solving the power map interpolation problem using both Graph Learning and Augmentation [1], Gaussian Process [2] and Kriging [3], as well as functions that perform Monta Carlo simulation.
+This MATLAB program contains the code for the paper "Graph learning and augmentation based interpolation of signal strength for location-aware communications".  Gaussian Process [2] and Kriging [3], as well as functions that perform Monta Carlo simulation.
 
 ## Contents
 1. In main directory
-    - GLA_interpolator.m : main function for GLA interpolator [1]
-    - GP_interpolator.m : main function for GP interpolator [2]
-    - LS_interpolator.m : main function for Kriging interpolator [3]
+    - GLA_interpolator.m : main function for Graph Learning and Augmentation based interpolator [1]
+    - GP_interpolator.m : main function for Gaussian Process based interpolator [2]
+    - LS_interpolator.m : main function for Kriging based interpolator [3]
     - AggregatedMSETest.m : Monta Carlo simulation for aggregated MSE
     - RegionalMSETest.m : Monta Carlo simulation for Regonal MSE
     - SNRTest.m : Monta Carlo simulation for SNR v.s.MSE
