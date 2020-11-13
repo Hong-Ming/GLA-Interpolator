@@ -62,9 +62,12 @@ This MATLAB program contains the code for the paper "Graph learning and augmenta
     - **RegionalMSE.fig**: result of RegionalMSETest.m
     - **SNR.fig**: result of SNRTest.m
 ## Setup/Installation
-1. Require CVX [6] installed
-2. Search paths and required directories will be create automatically as
-   startup.m will automatically executed at startup.
+1. CVX [6] installed (Optional), you can use the solver in `BCD_Algorithm/` to run the code.
+2. Run 
+```
+>>startup.m
+```
+to setup search paths and required directories.
 3. If your startup directory is not GLA/ or there are errors occurs due to 
    'Function is not found on MATLAB searth path' or 'No such file or directory',
    please execute startup.m manually.
