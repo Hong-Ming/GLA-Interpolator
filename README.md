@@ -1,8 +1,18 @@
 # Graph Learning and Augmentation Based Interpolation of Signal Strength for Location-aware Communicationsr
 #### Authors: [Hong-Ming, Chiu](https://github.com/Hong-Ming), [Carrson C. Fung](https://mcube.nctu.edu.tw/~cfung/), [Antonio Ortega](https://viterbi.usc.edu/directory/faculty/Ortega/Antonio)
 #### [Link to Paper](https://www.eurasip.org/Proceedings/Eusipco/Eusipco2020/pdfs/0002150.pdf)
-
 Code regarding GMRF Graph Learning referenced from: [https://github.com/STAC-USC/Graph_Learning](https://github.com/STAC-USC/Graph_Learning)
+#### Cite
+Please cite [our paper](https://www.eurasip.org/Proceedings/Eusipco/Eusipco2020/pdfs/0002150.pdf) if you use this code in your own work:
+
+```
+@inproceedings{chiu2020gla,
+  title={Graph Learning and Augmentation Based Interpolation of Signal Strength for Location-aware Communicationsr},
+  author={Hong-Ming Chiu and Carrson C. Fung and Antonio Ortega},
+  booktitle={European Signal Processing Conference (EUSIPCO)},
+  year={2020}
+}
+```
 
 ## Intorduction
 This MATLAB program contains the code for the paper "Graph learning and augmentation based interpolation of signal strength for location-aware communications".  Gaussian Process [2] and Kriging [3], as well as functions that perform Monta Carlo simulation.
