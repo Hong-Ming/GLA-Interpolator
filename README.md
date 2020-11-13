@@ -70,7 +70,7 @@ This MATLAB program contains the code for the paper "Graph learning and augmenta
    please execute startup.m manually.
         
 ## RERERENCE
-[1] H.M. Chiu, C.C. Fung, and A. Ortega, "Graph learning and augmentation based interpolation of signal strength for location-aware communications," 2020.
+[1] Hong-Ming Chiu, Carrson C. Fung, and Antonio Ortega, "Graph learning and augmentation based interpolation of signal strength for location-aware communications,"  European Signal Processing Conference (EUSIPCO) 2020.
     
 [2] Ferris Brian, Hähnel Dirk and Fox Dieter, "Gaussian Processes for Signal Strength-Based Location Estimation," 2006.
     
