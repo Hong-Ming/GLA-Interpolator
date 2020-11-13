@@ -18,7 +18,7 @@ Please cite [our paper](https://www.eurasip.org/Proceedings/Eusipco/Eusipco2020/
 This MATLAB program contains the code for the paper "Graph learning and augmentation based interpolation of signal strength for location-aware communications". The code for the interpolator using Gaussian Process [2] and Kriging [3] are also included to perform comparison and Monta Carlo simulation.
 
 ## Contents
-1. In '/':
+1. In `/`:
     - GLA_interpolator.m : main function for Graph Learning and Augmentation based interpolator [1]
     - GP_interpolator.m : main function for Gaussian Process based interpolator [2]
     - LS_interpolator.m : main function for Kriging based interpolator [3]
@@ -27,7 +27,7 @@ This MATLAB program contains the code for the paper "Graph learning and augmenta
     - SNRTest.m : Monta Carlo simulation for SNR v.s.MSE
     - startup.m : add path and make directory, executed automatically at startup
     - cleanup.m : clean all *.mat file in Data/ directory
-2. In 'Function/': 
+2. In `Function/`: 
     - MakeGroundTrue.m : generate ground true power map [4]
     - MakeObservation.m : generate observed power map
     - MakeSample.m : generate sample points
