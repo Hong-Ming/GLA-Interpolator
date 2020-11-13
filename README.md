@@ -61,7 +61,7 @@ This MATLAB program contains the code for the paper "Graph learning and augmenta
     - **AggregatedMSE.fig**: result of AggregatedMSETest.m
     - **RegionalMSE.fig**: result of RegionalMSETest.m
     - **SNR.fig**: result of SNRTest.m
-## SETUP/INSTALLATION
+## Setup/Installation
 1. Require CVX [6] installed
 2. Search paths and required directories will be create automatically as
    startup.m will automatically executed at startup.
@@ -69,7 +69,7 @@ This MATLAB program contains the code for the paper "Graph learning and augmenta
    'Function is not found on MATLAB searth path' or 'No such file or directory',
    please execute startup.m manually.
         
-## RERERENCE
+## Reference
 [1] Hong-Ming Chiu, Carrson C. Fung, and Antonio Ortega, "Graph learning and augmentation based interpolation of signal strength for location-aware communications,"  European Signal Processing Conference (EUSIPCO) 2020.
     
 [2] Ferris Brian, Hähnel Dirk and Fox Dieter, "Gaussian Processes for Signal Strength-Based Location Estimation," 2006.
