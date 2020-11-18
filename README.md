@@ -1,5 +1,5 @@
 # Graph Learning and Augmentation Based Interpolation of Signal Strength for Location-aware Communicationsr
-#### Authors: [Hong-Ming, Chiu](https://github.com/Hong-Ming), [Carrson C. Fung](https://mcube.nctu.edu.tw/~cfung/), [Antonio Ortega](https://viterbi.usc.edu/directory/faculty/Ortega/Antonio)
+#### Authors: [Hong-Ming, Chiu](https://hong-ming.github.io/), [Carrson C. Fung](https://mcube.nctu.edu.tw/~cfung/), [Antonio Ortega](https://viterbi.usc.edu/directory/faculty/Ortega/Antonio)
 #### [Link to Paper](https://www.eurasip.org/Proceedings/Eusipco/Eusipco2020/pdfs/0002150.pdf)
 Code regarding GMRF Graph Learning referenced from: [https://github.com/STAC-USC/Graph_Learning](https://github.com/STAC-USC/Graph_Learning)
 #### Cite
