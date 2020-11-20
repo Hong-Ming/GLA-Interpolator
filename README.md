@@ -24,7 +24,7 @@ Please cite [our paper](https://www.eurasip.org/Proceedings/Eusipco/Eusipco2020/
 This MATLAB program contains the code for the paper "Graph learning and augmentation based interpolation of signal strength for location-aware communications" and code to perform Monta Carlo simulation. The code for the interpolator using Gaussian Process [2] and Kriging [3] are also included for comparison.
 
 ## Contents
-1. In `/`:
+- In `/`:
     - **GLA_interpolator.m**: main function for Graph Learning and Augmentation based interpolator [1]
     - **GP_interpolator.m**: main function for Gaussian Process based interpolator [2]
     - **LS_interpolator.m**: main function for Kriging based interpolator [3]
@@ -33,32 +33,32 @@ This MATLAB program contains the code for the paper "Graph learning and augmenta
     - **SNRTest.m**: Monta Carlo simulation for SNR v.s.MSE
     - **startup.m**: add path and make directory, executed automatically at startup
     - **cleanup.m**: clean all *.mat file in Data/ directory
-2. In `Function/`: 
+- In `Function/`: 
     - **MakeGroundTrue.m**: generate ground true power map [4]
     - **MakeObservation.m**: generate observed power map
     - **MakeSample.m**: generate sample points
     - **DataStatistic.m**: generate data statistic
     - **GMRF.m**: GMRF graph learning [5]
     - **LearnParameter.m**: learn paramters for graph augmentation
-3. In `BCD_Algorithm/` [5] : 
+- In `BCD_Algorithm/` [5] : 
     - **EstimateGGL.m**: GGL graph learning
     - **EstimateDDGL.m**: DDGL graph learning
     - **EstimateCGL.m**: CGL graph learning
     - **nonnegative_qp_solver.m**: function for solving inner QP subproblem
     - **update_sherman_morrison_diag.m**: funciton for updating diagonal elements in DDGL graph learning
-4. In `MonteCarlo/` : 
+- In `MonteCarlo/` : 
     - `AggregatedMSETest/`: store outputs of AggregatedMSETest.m
     - `RegionalMSETest/`:store outputs of RegionalMSETest.m
     - `SNRTest/`:store outputs of SNRTest.m
     - **PlotAggregatedMSETest.m**: plot results of AggregatedMSETest.m
     - **PlotRegionalMSETest.m**: plot results of RegionalMSETest.m
     - **PlotSNRTest.m**: plot results of SNRTest.m
-5. In `Data/` :
+- In `Data/` :
     - `GP/`: store results of GP_interpolator.m
     - `GraphLearningData/`: store results of DataStatistic.m, GMRF.m and LearnParameter.m
     - `GroundTrueData/`: store results of MakeGroundTrue.m
     - `Sample/`: store results of MakeSample.m
-6. In `Figure/` :
+- In `Figure/` :
     - **TruePowerMap.fig**: true power map generated from MakeGroundTrue.m
     - **ObservedPowerMap.fig**: noisy observation of power map plotted in TruePowerMap.fig
     - **InterpolatedPowerMap(GLA).fig**: interpolated result of GLA_interpolator.m
@@ -70,11 +70,11 @@ This MATLAB program contains the code for the paper "Graph learning and augmenta
 
 ## Prerequisite and Setup
 1. CVX [6] installed (Optional), you can use the solver in `BCD_Algorithm/` to run the code.
-2. Run **startup** to setup search paths and required directories.
+2. Run `startup` to setup search paths and required directories.
    ```
    >>startup
    ```
-3. This program stores the outputs and learned parameters in `Data/` to speed up implementation, run **cleanup** to cleanup those data
+3. This program stores the outputs and learned parameters in `Data/` to speed up implementation, run `cleanup` to cleanup those data
    ```
    >>cleanup
    ```
