@@ -3,7 +3,7 @@
 #### [Link to Paper](https://www.eurasip.org/Proceedings/Eusipco/Eusipco2020/pdfs/0002150.pdf)
 Code regarding GMRF Graph Learning referenced from: [https://github.com/STAC-USC/Graph_Learning](https://github.com/STAC-USC/Graph_Learning)
 #### Cite
-Please cite [our paper](https://www.eurasip.org/Proceedings/Eusipco/Eusipco2020/pdfs/0002150.pdf) if you use this code in your own work:
+Please cite our paper if you use this code in your own work:
 
 ```
 @inproceedings{chiu2020gla,
@@ -16,7 +16,7 @@ Please cite [our paper](https://www.eurasip.org/Proceedings/Eusipco/Eusipco2020/
 ## Table of Contents
 * [Intorduction](#intorduction)
 * [Directory Tree](#directory-tree)
-* [Prerequisite and Setup](#prerequisite-and-setup)
+* [Setup and Usage](#setup-and-usage)
 * [Reference](#reference)
 * [Author](#author)
 
@@ -68,7 +68,7 @@ This MATLAB program contains the code for the paper "Graph learning and augmenta
     - **RegionalMSE.fig**: result of `RegionalMSETest.m`.
     - **SNR.fig**: result of `SNRTest.m`.
 
-## Prerequisite and Setup
+## Setup and Usage
 ### Prerequisite
 - MATLAB version R2019a or later
 - CVX [6] installed (Optional), you can use the solver in `BCD_Algorithm/` to run the code.
