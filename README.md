@@ -47,26 +47,26 @@ This MATLAB program contains the code for the paper "Graph learning and augmenta
     - **nonnegative_qp_solver.m**: function for solving inner QP subproblem.
     - **update_sherman_morrison_diag.m**: funciton for updating diagonal elements in DDGL graph learning.
 - `MonteCarlo/` : 
-    - `AggregatedMSETest/`: directory for storing outputs of AggregatedMSETest.m.
-    - `RegionalMSETest/`: directory for storing outputs of RegionalMSETest.m.
-    - `SNRTest/`: directory for storing outputs of SNRTest.m.
-    - **PlotAggregatedMSETest.m**: function for ploting results of AggregatedMSETest.m.
-    - **PlotRegionalMSETest.m**: function for ploting results of RegionalMSETest.m.
-    - **PlotSNRTest.m**: function for ploting results of SNRTest.m.
+    - `AggregatedMSETest/`: directory for storing outputs of `AggregatedMSETest.m`.
+    - `RegionalMSETest/`: directory for storing outputs of `RegionalMSETest.m`.
+    - `SNRTest/`: directory for storing outputs of `SNRTest.m`.
+    - **PlotAggregatedMSETest.m**: function for ploting results of `AggregatedMSETest.m`.
+    - **PlotRegionalMSETest.m**: function for ploting results of `RegionalMSETest.m`.
+    - **PlotSNRTest.m**: function for ploting results of `SNRTest.m`.
 - `Data/` :
-    - `GP/`: directory for storing results of GP_interpolator.m
-    - `GraphLearningData/`: directory for storing results of DataStatistic.m, GMRF.m and LearnParameter.m
-    - `GroundTrueData/`: directory for storing results of MakeGroundTrue.m
-    - `Sample/`: directory for storing results of MakeSample.m
+    - `GP/`: directory for storing results of `GP_interpolator.m`.
+    - `GraphLearningData/`: directory for storing results of `DataStatistic.m`, `GMRF.m` and `LearnParameter.m`.
+    - `GroundTrueData/`: directory for storing results of `MakeGroundTrue.m`.
+    - `Sample/`: directory for storing results of `MakeSample.m`.
 - `Figure/` :
-    - **TruePowerMap.fig**: true power map generated from MakeGroundTrue.m
-    - **ObservedPowerMap.fig**: noisy observation of power map plotted in TruePowerMap.fig
-    - **InterpolatedPowerMap(GLA).fig**: interpolated result of GLA_interpolator.m
-    - **InterpolatedPowerMap(GP).fig**: interpolated result of GP_interpolator.m
-    - **InterpolatedPowerMap(LS).fig**: interpolated result of LS_interpolator.m
-    - **AggregatedMSE.fig**: result of AggregatedMSETest.m
-    - **RegionalMSE.fig**: result of RegionalMSETest.m
-    - **SNR.fig**: result of SNRTest.m
+    - **TruePowerMap.fig**: true power map generated from `MakeGroundTrue.m`.
+    - **ObservedPowerMap.fig**: noisy observation of power map plotted in `TruePowerMap.fig`.
+    - **InterpolatedPowerMap(GLA).fig**: interpolated result of `GLA_interpolator.m`.
+    - **InterpolatedPowerMap(GP).fig**: interpolated result of `GP_interpolator.m`.
+    - **InterpolatedPowerMap(LS).fig**: interpolated result of `LS_interpolator.m`.
+    - **AggregatedMSE.fig**: result of `AggregatedMSETest.m`.
+    - **RegionalMSE.fig**: result of `RegionalMSETest.m`.
+    - **SNR.fig**: result of `SNRTest.m`.
 
 ## Prerequisite and Setup
 ### Prerequisite
@@ -81,7 +81,7 @@ This MATLAB program contains the code for the paper "Graph learning and augmenta
    ```
    >>GLA_interpolator
    ```
-   Refer to the comment section in `GLA_interpolator` for detailed simulation, parameter and solver setting.
+   Refer to the comment section in `GLA_interpolator.m` for detailed simulations, parameters and solvers setting.
 3. This program stores the outputs and learned parameters in `Data/` to speed up implementation, this might take some space in your computer, you can run `cleanup` to cleanup those data
    ```
    >>cleanup
