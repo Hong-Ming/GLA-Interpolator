@@ -1,5 +1,5 @@
-# Graph Learning and Augmentation Based Interpolation of Signal Strength for Location-aware Communicationsr
-#### Authors: [Hong-Ming, Chiu](https://hong-ming.github.io/), [Carrson C. Fung](https://mcube.nctu.edu.tw/~cfung/), [Antonio Ortega](https://viterbi.usc.edu/directory/faculty/Ortega/Antonio)
+# Graph Learning and Augmentation Based Interpolation of Signal Strength for Location-aware Communications
+#### Authors: [Hong-Ming, Chiu](https://hong-ming.github.io/), [Carrson C. Fung](https://eenctu.nctu.edu.tw/tw/teacher/p1.php?num=145&page=1), [Antonio Ortega](https://viterbi.usc.edu/directory/faculty/Ortega/Antonio)
 #### [Link to Paper](https://www.eurasip.org/Proceedings/Eusipco/Eusipco2020/pdfs/0002150.pdf)
 Code regarding GMRF Graph Learning referenced from: [https://github.com/STAC-USC/Graph_Learning](https://github.com/STAC-USC/Graph_Learning)
 #### Cite
@@ -13,6 +13,12 @@ Please cite [our paper](https://www.eurasip.org/Proceedings/Eusipco/Eusipco2020/
   year={2020}
 }
 ```
+## Table of Contents
+* [Intorduction](#intorduction)
+* [Contents](#contents)
+* [Prerequisite and Setup](#prerequisite-and-setup)
+* [Reference](#reference)
+* [Author](#author)
 
 ## Intorduction
 This MATLAB program contains the code for the paper "Graph learning and augmentation based interpolation of signal strength for location-aware communications" and code to perform Monta Carlo simulation. The code for the interpolator using Gaussian Process [2] and Kriging [3] are also included for comparison.
@@ -61,7 +67,8 @@ This MATLAB program contains the code for the paper "Graph learning and augmenta
     - **AggregatedMSE.fig**: result of AggregatedMSETest.m
     - **RegionalMSE.fig**: result of RegionalMSETest.m
     - **SNR.fig**: result of SNRTest.m
-## Setup/Installation
+
+## Prerequisite and Setup
 1. CVX [6] installed (Optional), you can use the solver in `BCD_Algorithm/` to run the code.
 2. Run **startup** to setup search paths and required directories.
    ```
@@ -85,7 +92,7 @@ This MATLAB program contains the code for the paper "Graph learning and augmenta
     
 [6] Michael Grant and Stephen Boyd. CVX: Matlab software for disciplined convex programming, version 2.0 beta. http://cvxr.com/cvx, September 2013.
     
-## Author/Conatact Info
+## Author
 Name  : Hong-Ming, Chiu
 
 Email : hongmingchiu2017@gmail.com
