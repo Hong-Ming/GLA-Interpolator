@@ -15,7 +15,7 @@ Please cite [our paper](https://www.eurasip.org/Proceedings/Eusipco/Eusipco2020/
 ```
 ## Table of Contents
 * [Intorduction](#intorduction)
-* [Contents](#contents)
+* [Directory Tree](#directory-tree)
 * [Prerequisite and Setup](#prerequisite-and-setup)
 * [Reference](#reference)
 * [Author](#author)
@@ -23,42 +23,42 @@ Please cite [our paper](https://www.eurasip.org/Proceedings/Eusipco/Eusipco2020/
 ## Intorduction
 This MATLAB program contains the code for the paper "Graph learning and augmentation based interpolation of signal strength for location-aware communications" and code to perform Monta Carlo simulation. The code for the interpolator using Gaussian Process [2] and Kriging [3] are also included for comparison.
 
-## Contents
-- In `/`:
-    - **GLA_interpolator.m**: main function for Graph Learning and Augmentation based interpolator [1]
-    - **GP_interpolator.m**: main function for Gaussian Process based interpolator [2]
-    - **LS_interpolator.m**: main function for Kriging based interpolator [3]
-    - **AggregatedMSETest.m**: Monta Carlo simulation for aggregated MSE
-    - **RegionalMSETest.m**: Monta Carlo simulation for Regonal MSE
-    - **SNRTest.m**: Monta Carlo simulation for SNR v.s.MSE
-    - **startup.m**: add path and make directory, executed automatically at startup
-    - **cleanup.m**: clean all *.mat file in Data/ directory
-- In `Function/`: 
-    - **MakeGroundTrue.m**: generate ground true power map [4]
-    - **MakeObservation.m**: generate observed power map
-    - **MakeSample.m**: generate sample points
-    - **DataStatistic.m**: generate data statistic
-    - **GMRF.m**: GMRF graph learning [5]
-    - **LearnParameter.m**: learn paramters for graph augmentation
-- In `BCD_Algorithm/` [5] : 
-    - **EstimateGGL.m**: GGL graph learning
-    - **EstimateDDGL.m**: DDGL graph learning
-    - **EstimateCGL.m**: CGL graph learning
-    - **nonnegative_qp_solver.m**: function for solving inner QP subproblem
-    - **update_sherman_morrison_diag.m**: funciton for updating diagonal elements in DDGL graph learning
-- In `MonteCarlo/` : 
-    - `AggregatedMSETest/`: store outputs of AggregatedMSETest.m
-    - `RegionalMSETest/`:store outputs of RegionalMSETest.m
-    - `SNRTest/`:store outputs of SNRTest.m
-    - **PlotAggregatedMSETest.m**: plot results of AggregatedMSETest.m
-    - **PlotRegionalMSETest.m**: plot results of RegionalMSETest.m
-    - **PlotSNRTest.m**: plot results of SNRTest.m
-- In `Data/` :
-    - `GP/`: store results of GP_interpolator.m
-    - `GraphLearningData/`: store results of DataStatistic.m, GMRF.m and LearnParameter.m
-    - `GroundTrueData/`: store results of MakeGroundTrue.m
-    - `Sample/`: store results of MakeSample.m
-- In `Figure/` :
+## Directory Tree
+- `/`:
+    - **GLA_interpolator.m**: main function for Graph Learning and Augmentation based interpolator [1].
+    - **GP_interpolator.m**: main function for Gaussian Process based interpolator [2].
+    - **LS_interpolator.m**: main function for Kriging based interpolator [3].
+    - **AggregatedMSETest.m**: function for Monta Carlo simulation for aggregated MSE [1].
+    - **RegionalMSETest.m**: function for Monta Carlo simulation for Regonal MSE [1].
+    - **SNRTest.m**: function for Monta Carlo simulation for SNR v.s.MSE.
+    - **startup.m**: startup file for setting search path and directory, executed automatically at startup.
+    - **cleanup.m**: clean all `.mat` file in `Data/` directory.
+- `Function/`: 
+    - **MakeGroundTrue.m**: function for generating ground true power map [4].
+    - **MakeObservation.m**: function for generating for observed power map.
+    - **MakeSample.m**: function for generating for sample points.
+    - **DataStatistic.m**: function for generating data statistic.
+    - **GMRF.m**: function for GMRF graph learning [5].
+    - **LearnParameter.m**: function for learning paramters for graph augmentation.
+- `BCD_Algorithm/` [5] : 
+    - **EstimateGGL.m**: function for GGL graph learning.
+    - **EstimateDDGL.m**: function for DDGL graph learning.
+    - **EstimateCGL.m**: function for CGL graph learning.
+    - **nonnegative_qp_solver.m**: function for solving inner QP subproblem.
+    - **update_sherman_morrison_diag.m**: funciton for updating diagonal elements in DDGL graph learning.
+- `MonteCarlo/` : 
+    - `AggregatedMSETest/`: directory for storing outputs of AggregatedMSETest.m.
+    - `RegionalMSETest/`: directory for storing outputs of RegionalMSETest.m.
+    - `SNRTest/`: directory for storing outputs of SNRTest.m.
+    - **PlotAggregatedMSETest.m**: function for ploting results of AggregatedMSETest.m.
+    - **PlotRegionalMSETest.m**: function for ploting results of RegionalMSETest.m.
+    - **PlotSNRTest.m**: function for ploting results of SNRTest.m.
+- `Data/` :
+    - `GP/`: directory for storing results of GP_interpolator.m
+    - `GraphLearningData/`: directory for storing results of DataStatistic.m, GMRF.m and LearnParameter.m
+    - `GroundTrueData/`: directory for storing results of MakeGroundTrue.m
+    - `Sample/`: directory for storing results of MakeSample.m
+- `Figure/` :
     - **TruePowerMap.fig**: true power map generated from MakeGroundTrue.m
     - **ObservedPowerMap.fig**: noisy observation of power map plotted in TruePowerMap.fig
     - **InterpolatedPowerMap(GLA).fig**: interpolated result of GLA_interpolator.m
