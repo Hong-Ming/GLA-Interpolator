@@ -69,12 +69,20 @@ This MATLAB program contains the code for the paper "Graph learning and augmenta
     - **SNR.fig**: result of SNRTest.m
 
 ## Prerequisite and Setup
-1. CVX [6] installed (Optional), you can use the solver in `BCD_Algorithm/` to run the code.
-2. Run `startup` to setup search paths and required directories.
+### Prerequisite
+- MATLAB version R2019a or later
+- CVX [6] installed (Optional), you can use the solver in `BCD_Algorithm/` to run the code.
+### Usage
+1. Run `startup` to setup search paths and required directories.
    ```
    >>startup
    ```
-3. This program stores the outputs and learned parameters in `Data/` to speed up implementation, run `cleanup` to cleanup those data
+2. Run GLA interpolator
+   ```
+   >>GLA_interpolator
+   ```
+   Refer to the comment section in `GLA_interpolator` for detailed simulation, parameter and solver setting.
+3. This program stores the outputs and learned parameters in `Data/` to speed up implementation, this might take some space in your computer, you can run `cleanup` to cleanup those data
    ```
    >>cleanup
    ```
