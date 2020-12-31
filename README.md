@@ -166,3 +166,6 @@ Email : hongmingchiu2017@gmail.com
 
 Website : [https://hong-ming.github.io](https://hong-ming.github.io/)
 
+## License
+MIT License
+
